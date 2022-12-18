@@ -9,7 +9,7 @@
 .swipeButtons .MuiIconButton-root {
     background-color: white;
     box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.5) !important;
-    padding: 3vw !important;
+    padding: 3vh !important;
 }
 
 .swipeButtons__repeat{
@@ -30,4 +30,10 @@
 
 .swipeButtons__lightning{
     color: #915dd1 !important;
+}
+
+@media screen and (max-width: 540px) {
+    .swipeButtons .MuiIconButton-root{
+        padding: 3vw !important;
+    }
 }
